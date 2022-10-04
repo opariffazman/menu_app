@@ -1,0 +1,59 @@
+:root {
+  --primary-color: lightblue;
+}
+
+.btn {
+  padding: 0.6rem 0.8rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  width: 120px;
+  margin-left: 10px;
+  box-shadow: 1px -3px 52px -5px rgba(65, 65, 65, 0.77);
+  cursor: pointer;
+}
+
+.btn.add {
+  background-color: darkgoldenrod;
+}
+
+.btn.remove {
+  background-color: red;
+}
+
+.btn.checkout {
+  background-color: darkgreen;
+  width: 150px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn.add:hover {
+  background-color: goldenrod;
+}
+
+.btn.add:active {
+  background-color: lightgoldenrodyellow;
+}
+
+.btn.remove:hover {
+  background-color: tomato;
+}
+
+.btn.remove:active {
+  background-color: darkred;
+}
+
+.btn.checkout:hover {
+  background-color: green;
+}
+
+.btn.checkout:active {
+  background-color: lightgreen;
+}
